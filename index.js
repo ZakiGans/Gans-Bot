@@ -2,7 +2,7 @@
 * Om mau ngapain om, jangan om...
 * Hayo mau ngapainn
 * Jangan diganti kecuali yg gua bolehin!!!
-* By @hendy
+* By @zaki
 * TQTO ada di paling bawah!!!
 * cari report sama request ganti nomor lu!!!
 */
@@ -35,9 +35,9 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
             + 'VERSION:3.0\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
-            + 'FN:Henry Admin\n' // NAMA OWNER BOT
-            + 'ORG:Creator Henry;\n' // KASIH CREDITS GUA AKMAL CAPY SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=:6289507841961+62-8950-7841-961\n' // GANTI NOMOR LU
+            + 'FN:zaki Admin\n' // NAMA OWNER BOT
+            + 'ORG:Creator zaki;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=:6283144780782+62-831-4478-0782\n' // GANTI NOMOR LU
             + 'END:VCARD'
 prefix = '.'
 blocked = []
@@ -161,9 +161,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6289507841961@s.whatsapp.net"] // GANTI NOMOR LU
-			const adminbotnumber = ["6289507841961@s.whatsapp.net"] // GANTI NOMOR LU
-			const frendsowner = ["6289507841961@s.whatsapp.net"] // GAUSAH DIGANTI!!!
+			const ownerNumber = ["6283144780782@s.whatsapp.net"] // GANTI NOMOR LU
+			const adminbotnumber = ["6283144780782@s.whatsapp.net"] // GANTI NOMOR LU
+			const frendsowner = ["6283144780782@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -211,7 +211,7 @@ async function starts() {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* : https://www.instagram.comu/ubur_kumbang\n➽ *YouTube* : gratisan saja\n➽ *Script By* : _henry_ [henry]\n➽ *Note* : _apaan?mau?sewa bos_\n➽ *Sepecial Thangks To* :\n➽ _Allah SWT_ \n➽ _Naruto-bot_ \n➽ _Seluruh member *MyBot Team*_\n➽ _Henry_\n➽ _Uzumaki-Bot_\n➽ _Hinata-Bot_\n➽ _XNXBOT_\n➽ _Sasuke-Bot_\n➽ _XIXBOT_\n➽ __\n➽ _Minata-Bot_\n➽_Itachibot_\n_DLL_`
+					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* : https://www.instagram.com\n➽ *YouTube* :\n➽ *Script By* : _Zaki_ [Zaki]\n➽ *Note* : _apaan?mau?sewa bos_\n➽ *Sepecial Thangks To* :\n➽ _Allah SWT_ \n➽ _Naruto-bot_ \n➽ _Seluruh member *MyBot Team*_\n➽ _Henry_\n➽ _Uzumaki-Bot_\n➽ _Hinata-Bot_\n➽ _XNXBOT_\n➽ _Sasuke-Bot_\n➽ _XIXBOT_\n➽ __\n➽ _Minata-Bot_\n➽_Itachibot_\n_DLL_`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -838,7 +838,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6289507841961@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6283144780782@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                 case 'request':
@@ -851,7 +851,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6289507841961@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6283144780782@s.whatsapp.net', options, text, {quoted: mek})
                     reply('REQUEST ANDA TELAH SAMPAI ke owner BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
