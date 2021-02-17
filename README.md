@@ -119,9 +119,11 @@ Follow The Steps Below!
 ## Group
 * <a href="https://chat.whatsapp.com/C1qFWmPm8EVDfKAhAXDvpT"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+## power by
+* zaki
+
 ## Special Thanks To
 * Allah SWT
-
-
-* https://github.com/ZakiGans
+* Xptn
+* Creator Bot lainnya
 <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gameplay.gif" alt="Mario Game" width="600" />
