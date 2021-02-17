@@ -9,7 +9,7 @@ const help = (prefix) => {
 ║╠➥NO KECOT!
 ┣━━━━°─⊱ *❬ INFORMASI BOT ❭* °━━━━━━┛
 ┃
-┃⊱➥ *HENRY-BOT*
+┃⊱➥ *GANS-BOT*
 ┃⊱➥ *6.1.3*
 ┃⊱➥ *USER:23.826*
 ┃⊱➥ *JUMLAH MEMBER VVIP:12.817*
@@ -23,7 +23,7 @@ const help = (prefix) => {
 ┃⊱➥ *OWNER:Henry-Bot*             
 ┃⊱➥ *STATUS:AKTIF
 ┃⊱➥ *BARU SAJA DI UPDATE!!*
-┃⊱➥ *TRAKHIR DI UPDATE (01-17*-2021/14:30)
+┃⊱➥ *GITHUB ME https://github.com/ZakiGans
 ┣━━°─⊱ ❬ *TENTANG BOT* ❭ °━━┓
 ┃
 ┣⊱➥ *${prefix}info*
@@ -227,15 +227,13 @@ const help = (prefix) => {
 ┃
 ┣━━━━━°─⊱ ❬ *NAME* ❭ °━━━━━┓
 ┃
-┃ *BOT BY HENRY*
+┃ *BOT BY ZAKIGANS*
 ┃
 ┣━━━━°─⊱ *❬ SOSIAL MEDIA ❭* °━━━━⊱
 ┃
 ┃ *Ada masalah? Hub :*
-┃ _http://wa.me/6289507841961_
-┃ *Instagram :* @ubur_kumbang
-┃ *YouTube :*
-┃ ?
+┃ _http://wa.me/6283144780782_
+┃ *YouTube :*MikazuMZ*
 ┃ *Twitter :?*
 ┃ 
 ┣━━━━°─⊱ *❬ NOTE ❭* °━━━━━━⊱
@@ -258,9 +256,9 @@ const help = (prefix) => {
 ┃
 ┃
 ┃
-┃ Undang Henry ke grup? 
+┃ Undang Bot ke grup? 
 ┃ Donasi dulu ya, paket data + batre hp juga ga gratis njir😆><
-┃ Contact: https://wa.me/6289507841961
+┃ Contact: https://wa.me/6283144780782
 ┃
 ┃
 ┃ 
@@ -310,7 +308,7 @@ const help = (prefix) => {
 ◒𝕐𝕠𝕜🄽🄶🄾🄿🄸🅑🅞🅢🅚🅤◒
 
 ┣━━━━━━━━━━━━━━━━━━━━┓
-┃ ❬ *POWERED BY HENRY-BOT* ❭
+┃ ❬ *POWERED BY ZAKI-BOT* ❭
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
 exports.help = help
